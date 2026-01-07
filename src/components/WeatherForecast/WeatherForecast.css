@@ -1,14 +1,29 @@
+/* Centers the entire forecast row */
 section {
   display: flex;
+  max-width: 1000px;
+  margin: 30px auto 0;
+  gap: 12px;
 }
 
+/* Individual weather cards */
 section .weather {
   border: 1px solid #ccc;
   flex: 1;
-  padding: 10px;
+  padding: 16px 10px;
   text-align: center;
+  background-color: #1f1f1f;
 }
 
+/* Bold labels */
 .weather span {
   font-weight: bold;
 }
+
+/* Weather icons */
+.weather img {
+  width: 50px;
+  height: auto;
+  margin: 10px 0;
+}
+
